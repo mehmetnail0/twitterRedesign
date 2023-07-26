@@ -1,0 +1,13 @@
+p, h1,h2,h3,h4,h5,button,a,ul,input,img{
+  background-color: transparent;
+  font-size:x-small ;
+}
+
+
+.sectionContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}

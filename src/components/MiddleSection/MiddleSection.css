@@ -1,0 +1,193 @@
+.middleSelectionContainer{
+    width: 50%;
+}
+
+
+.middleSelectionContainer > * {
+    margin: 12px;
+}
+
+
+.middleSelectionSendPostfixedButton{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    color:white;
+
+    border-radius: 100%;
+}
+.middleSelectionSendPostfixedButton button {
+    border: none;
+    text-align: center;
+}
+.middleSelection_sendPost{
+    background-color: #7fcaff0f;
+    padding: 20px 32px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.middleSelection_sendPost_myProfileImage{
+    width: 10%;
+}
+
+.middleSelection_sendPost_postInfos{
+    width: 85%;
+}
+.middleSelection_sendPost_postInfos_first{
+    background-color: #7fcaff28;
+    width: 100%;
+    border-radius: 12px;
+    padding: 8px;
+}
+.middleSelection_sendPost_postInfos_first input {
+    width: 80%;
+    padding: 12px;
+background-color: transparent;
+    border: none;
+}
+.middleSelection_sendPost_postInfos_first button {
+    background-color: transparent;
+    border:solid;
+    border-radius: 100%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.middleSelection_sendPost_postInfos_second{
+    display: flex;
+    justify-content:center ;
+}
+.middleSelection_sendPost_postInfos_second > * {
+    margin: 8px auto;
+}
+.middleSelection_sendPost_postInfos_second button {
+    background-color:#1432480f ;
+padding: 8px;
+border: solid #ffffff21 2px;
+    border-radius: 12px;
+    color:white;
+}
+.middleSelection_sendPost_myProfileImage img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+
+.middleSelection_post{
+    display: flex;
+    flex-direction: row;
+    background-color: #7fcaff0f;
+    border-radius: 16px;
+    padding: 20px 32px;
+    justify-content: space-around;
+}
+
+.middleSelection_post_profileImage{
+    width: 10%;
+}
+.middleSelection_post_profileInfo{
+width: 80%;
+}
+
+
+
+
+
+.middleSelection_post_postInfos_namesAndNickName{
+    line-height: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: start;
+}
+.middleSelection_post_postInfos_namesAndNickName > *{
+    margin: 0 18px 0 0
+}
+.middleSelection_post_profileInfo{
+    text-align: start;
+}
+.middleSelection_post_profileImage img {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.middleSelection_post_postInfos_postInfos{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.middleSelection_post_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.middleSelection_post_buttons > *{
+    border: solid #ffffff21 2px;
+border-radius: 12px;
+background-color: transparent;
+padding: 8px;
+margin: auto;
+color:white;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .middleSelectionContainer{
+        width: 100%;
+        background-color: transparent;
+    }
+    .middleSelection_sendPost{
+        background-color: transparent;
+        padding: 16px;
+
+    }
+    .middleSelection_sendPost_postInfos{
+        width: 80%;
+    }
+    .middleSelection_sendPost_postInfos_first  {
+        width: 95%;
+    }
+    .middleSelection_sendPost_postInfos_first{
+        
+    }
+
+    .middleSelection_post{
+background-color: transparent;
+padding: 16px 12px;
+}
+
+.middleSelection_sendPost_myProfileImage img{
+    width: 40px;
+    height:40px;
+}
+.middleSelection_post_profileImage img {
+
+    width: 40px;
+    height: 40px;
+
+  }
+
+}
+
+  @media screen and (max-width:720px) {
+    /* .middleSelection_sendPost{
+        display: none;
+    }
+     */
+  }
+
+

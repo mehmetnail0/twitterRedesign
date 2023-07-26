@@ -1,0 +1,160 @@
+body {
+    background-color:#080E24 ;
+    color:white
+}
+::placeholder {
+    color:#ffffff;
+}
+.iconTwitterHub{
+    color: white;
+}
+
+.iconTwitterHub a:visited{
+    color: white;
+    }
+
+.Navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navLeft, .navRight{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.navLeft input{
+    background-color: #7FCAFF;
+    border:none;
+    opacity: 10%;
+    padding: 14px;
+    border-radius: 20px;
+}
+
+.navLeft input:focus{
+    background-color: #7FCAFF;
+    opacity: 50%;
+    padding: 14px;
+    border-radius: 20px;
+}
+/* .navLeft input::placeholder {
+    color:white
+} */
+
+.navRight {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navRight h2 {
+    margin-left: 6px;
+}
+.navRight >*{
+    margin: 0 12px;
+}
+.navRight >*:hover{
+background-color: #ffffff39;
+cursor: pointer;
+}
+.navRight button{
+    display: flex;
+    flex-direction: row;
+    border:none;
+    border-radius: 16px;
+    color:black;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 100px;
+    padding: 0px 12px;
+    text-align: center;
+    background-color:#FFFFFF
+}
+.navRight button p {
+    background-color: white;
+    color:black
+}
+
+
+
+
+.myProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+padding:0 12px;
+background-color: #121D36;
+align-items: center;
+align-self: center;
+align-content: center;
+    border-radius: 60px;
+    position: relative;
+    /* margin :0 20px; */
+}
+.myProfile p, .myProfile h2 {
+    background-color: transparent;
+}
+.myProfile h2 {
+
+}
+.myProfile:hover {
+    background-color: #b1b1b17f;
+    cursor: pointer;
+}
+
+.myProfile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.myProfileModal{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    color:black;
+    background-color: rgba(5, 33, 84, 0.77);
+    border-radius: 24px;
+    padding: 6px;
+
+
+    margin-top: 70%;
+    right: 1px;
+        display: flex;
+align-items: center;
+}
+.myProfileModal a:visited{
+    color:white
+}
+.myProfileModal:hover {
+    background-color :rgb(171, 171, 171, 0.77);
+cursor:default;
+}
+.myProfileModal a {
+    text-decoration: none;
+}
+.myProfileModal ul {
+    list-style: none;
+}
+.myProfileModal p {
+    font-size: medium;
+}
+
+.deactive{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+.navLeft{
+    display:none;
+}
+}

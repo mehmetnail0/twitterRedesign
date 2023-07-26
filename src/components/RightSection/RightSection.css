@@ -1,0 +1,29 @@
+
+
+.rightSectionContainer{
+width: 20%;
+}
+@media screen and (max-width: 1024px) {
+    .rightSectionContainer{
+        display: none;
+        }
+  }
+
+.rightSectionContainer_trendsForYou{
+    background-color:hsla(205, 100%, 75%, 0.059) ;
+    padding:4px  24px;
+    border-radius: 24px;text-align: start;
+
+}
+.rightSectionContainer_trendsForYouAContent_trendingTab ul{
+    list-style: none;
+    line-height: 4px;
+}
+.rightSectionContainer_trendsForYouAContent_trendingTab ul li{
+    margin: 24px 0;
+
+}
+
+.rightSectionContainer_trendsForYouAContent_trendingTab ul li p{
+font-size: smaller;
+}
